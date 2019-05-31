@@ -3,8 +3,8 @@ import React from 'react'; import {NavLink} from 'react-router-dom';
      return(
          <div>
              <ul className="right">
-                 <li><NavLink to='/'>Sign Up</NavLink></li>
-                 <li><NavLink to='/'>Login</NavLink></li>
+                 <li><NavLink to='/signup'>Sign Up</NavLink></li>
+                 <li><NavLink to='/signin'>Login</NavLink></li>
              </ul>
          </div>
      );
